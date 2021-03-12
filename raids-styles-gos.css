@@ -8,7 +8,7 @@
   grid-column-gap: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media (orientation: portrait) {
   .content-box-gos {
     width: 100%;
     grid-template-rows: 18em 18em;
@@ -17,7 +17,7 @@
   }
 }
 
-@media only screen and (min-width: 1300px) {
+@media (orientation: landscape) and (min-width: 1300px) {
   .content-box-gos {
     grid-template-rows: 25em;
   }

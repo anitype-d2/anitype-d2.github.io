@@ -67,7 +67,7 @@
   height: 16em;
 }
 
-@media only screen and (max-width: 600px) {
+@media (orientation: portrait) {
   .content-box-lw {
     grid-template-rows: 3em auto 3em auto 3em auto 3em auto 3em auto;
   }
