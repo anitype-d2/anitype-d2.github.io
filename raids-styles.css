@@ -153,6 +153,9 @@ body {
   body {
     font-size: 4vw;
   }
+  .page-header {
+    grid-template-columns: 1fr;
+  }
   .page-title {
     font-size: 4vw;
     grid-template-rows: 3.5em 2em 1.5em;
