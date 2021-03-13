@@ -8,6 +8,7 @@
 
 body {
   background-image: url("res/bg-dark.png");
+  background-color: rgb(24, 24, 24);
   background-repeat: repeat;
   margin: 0;
   font-size: 12pt;
