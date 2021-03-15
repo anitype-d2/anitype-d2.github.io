@@ -51,6 +51,15 @@
   background-position: 50%;
 }
 
+.vault-img {
+  background-size: contain;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40em;
+  width: 100%;
+}
+
 .eyes-img {
   background-size: cover;
   background-origin: border-box;
@@ -82,6 +91,9 @@
   }
   .calc-example-box {
     grid-template-rows: 7em;
+  }
+  .vault-img {
+    height: 20em;
   }
   .eyes-img {
     width: 100%;
